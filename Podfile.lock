@@ -1,0 +1,17 @@
+PODS:
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
+    - CocoaLumberjack/Core
+  - EstimoteSDK (2.3.2)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - EstimoteSDK
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 205769c032b5fef85b92472046bcc8b7e7c8a817
+  EstimoteSDK: 1295d0374e2fec63e5fc520522d7500c7bb6fa72
+
+COCOAPODS: 0.35.0

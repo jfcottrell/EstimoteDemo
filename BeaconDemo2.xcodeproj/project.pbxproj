@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5258DC0C1A954DAB00B0C43C /* BeaconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5258DC0B1A954DAB00B0C43C /* BeaconManager.m */; };
+		525936BC1A92AA0F0013BA0B /* BeaconDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525936BB1A92AA0F0013BA0B /* BeaconDetailViewController.m */; };
+		52AC90941A880D7C00040B92 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AC90931A880D7C00040B92 /* CoreBluetooth.framework */; };
+		52AC90961A880D8C00040B92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AC90951A880D8C00040B92 /* Foundation.framework */; };
+		52AC90981A880DA700040B92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AC90971A880DA700040B92 /* CoreLocation.framework */; };
+		52AC909A1A880DC300040B92 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AC90991A880DC300040B92 /* SystemConfiguration.framework */; };
+		52AC909C1A880DDC00040B92 /* libPods-BeaconDemo2-EstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AC909B1A880DDC00040B92 /* libPods-BeaconDemo2-EstimoteSDK.a */; };
+		52BF807C1AB8C71900F605CB /* JCBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF807B1AB8C71900F605CB /* JCBeacon.m */; };
 		52D886B61A86AE9900C6B931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D886B51A86AE9900C6B931 /* main.m */; };
 		52D886B91A86AE9900C6B931 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D886B81A86AE9900C6B931 /* AppDelegate.m */; };
 		52D886BC1A86AE9900C6B931 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D886BB1A86AE9900C6B931 /* ViewController.m */; };
@@ -14,6 +22,7 @@
 		52D886C11A86AE9900C6B931 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D886C01A86AE9900C6B931 /* Images.xcassets */; };
 		52D886C41A86AE9900C6B931 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D886C21A86AE9900C6B931 /* LaunchScreen.xib */; };
 		52D886D01A86AE9900C6B931 /* BeaconDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D886CF1A86AE9900C6B931 /* BeaconDemo2Tests.m */; };
+		F9072656036B47E1DDB555AF /* libPods-BeaconDemo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0C3DC8BA8DE142695ED12B /* libPods-BeaconDemo2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5258DC0A1A954DAB00B0C43C /* BeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconManager.h; sourceTree = "<group>"; };
+		5258DC0B1A954DAB00B0C43C /* BeaconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconManager.m; sourceTree = "<group>"; };
+		525936BA1A92AA0F0013BA0B /* BeaconDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeaconDetailViewController.h; path = ../BeaconDetailViewController.h; sourceTree = "<group>"; };
+		525936BB1A92AA0F0013BA0B /* BeaconDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeaconDetailViewController.m; path = ../BeaconDetailViewController.m; sourceTree = "<group>"; };
+		52AC90931A880D7C00040B92 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		52AC90951A880D8C00040B92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52AC90971A880DA700040B92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		52AC90991A880DC300040B92 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52AC909B1A880DDC00040B92 /* libPods-BeaconDemo2-EstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-BeaconDemo2-EstimoteSDK.a"; path = "Pods/build/Debug-iphoneos/libPods-BeaconDemo2-EstimoteSDK.a"; sourceTree = "<group>"; };
+		52BF807A1AB8C71900F605CB /* JCBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBeacon.h; sourceTree = "<group>"; };
+		52BF807B1AB8C71900F605CB /* JCBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBeacon.m; sourceTree = "<group>"; };
 		52D886B01A86AE9900C6B931 /* BeaconDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D886B41A86AE9900C6B931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52D886B51A86AE9900C6B931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +60,9 @@
 		52D886C91A86AE9900C6B931 /* BeaconDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D886CE1A86AE9900C6B931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52D886CF1A86AE9900C6B931 /* BeaconDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconDemo2Tests.m; sourceTree = "<group>"; };
+		5E0C3DC8BA8DE142695ED12B /* libPods-BeaconDemo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeaconDemo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF3C69E66BBC723AA24BDF4 /* Pods-BeaconDemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeaconDemo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeaconDemo2/Pods-BeaconDemo2.debug.xcconfig"; sourceTree = "<group>"; };
+		D591A157B790A77A6145DF6C /* Pods-BeaconDemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeaconDemo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeaconDemo2/Pods-BeaconDemo2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AC909C1A880DDC00040B92 /* libPods-BeaconDemo2-EstimoteSDK.a in Frameworks */,
+				52AC909A1A880DC300040B92 /* SystemConfiguration.framework in Frameworks */,
+				52AC90981A880DA700040B92 /* CoreLocation.framework in Frameworks */,
+				52AC90961A880D8C00040B92 /* Foundation.framework in Frameworks */,
+				52AC90941A880D7C00040B92 /* CoreBluetooth.framework in Frameworks */,
+				F9072656036B47E1DDB555AF /* libPods-BeaconDemo2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +95,8 @@
 				52D886B21A86AE9900C6B931 /* BeaconDemo2 */,
 				52D886CC1A86AE9900C6B931 /* BeaconDemo2Tests */,
 				52D886B11A86AE9900C6B931 /* Products */,
+				D98C9DD7E45FFD9DA69C738C /* Pods */,
+				A3E122DCF839A64FBA835C31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,10 +116,16 @@
 				52D886B81A86AE9900C6B931 /* AppDelegate.m */,
 				52D886BA1A86AE9900C6B931 /* ViewController.h */,
 				52D886BB1A86AE9900C6B931 /* ViewController.m */,
+				525936BA1A92AA0F0013BA0B /* BeaconDetailViewController.h */,
+				525936BB1A92AA0F0013BA0B /* BeaconDetailViewController.m */,
 				52D886BD1A86AE9900C6B931 /* Main.storyboard */,
 				52D886C01A86AE9900C6B931 /* Images.xcassets */,
 				52D886C21A86AE9900C6B931 /* LaunchScreen.xib */,
 				52D886B31A86AE9900C6B931 /* Supporting Files */,
+				5258DC0A1A954DAB00B0C43C /* BeaconManager.h */,
+				5258DC0B1A954DAB00B0C43C /* BeaconManager.m */,
+				52BF807A1AB8C71900F605CB /* JCBeacon.h */,
+				52BF807B1AB8C71900F605CB /* JCBeacon.m */,
 			);
 			path = BeaconDemo2;
 			sourceTree = "<group>";
@@ -119,6 +156,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A3E122DCF839A64FBA835C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52AC909B1A880DDC00040B92 /* libPods-BeaconDemo2-EstimoteSDK.a */,
+				52AC90991A880DC300040B92 /* SystemConfiguration.framework */,
+				52AC90971A880DA700040B92 /* CoreLocation.framework */,
+				52AC90951A880D8C00040B92 /* Foundation.framework */,
+				52AC90931A880D7C00040B92 /* CoreBluetooth.framework */,
+				5E0C3DC8BA8DE142695ED12B /* libPods-BeaconDemo2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98C9DD7E45FFD9DA69C738C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EF3C69E66BBC723AA24BDF4 /* Pods-BeaconDemo2.debug.xcconfig */,
+				D591A157B790A77A6145DF6C /* Pods-BeaconDemo2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52D886D31A86AE9900C6B931 /* Build configuration list for PBXNativeTarget "BeaconDemo2" */;
 			buildPhases = (
+				CF1DFC5D9B476AA5D17C1411 /* Check Pods Manifest.lock */,
 				52D886AC1A86AE9900C6B931 /* Sources */,
 				52D886AD1A86AE9900C6B931 /* Frameworks */,
 				52D886AE1A86AE9900C6B931 /* Resources */,
+				B04FCAFB72D16E2E5DE8C33C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +275,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B04FCAFB72D16E2E5DE8C33C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeaconDemo2/Pods-BeaconDemo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1DFC5D9B476AA5D17C1411 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52D886AC1A86AE9900C6B931 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				52D886BC1A86AE9900C6B931 /* ViewController.m in Sources */,
+				525936BC1A92AA0F0013BA0B /* BeaconDetailViewController.m in Sources */,
 				52D886B91A86AE9900C6B931 /* AppDelegate.m in Sources */,
 				52D886B61A86AE9900C6B931 /* main.m in Sources */,
+				52BF807C1AB8C71900F605CB /* JCBeacon.m in Sources */,
+				5258DC0C1A954DAB00B0C43C /* BeaconManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,20 +438,30 @@
 		};
 		52D886D41A86AE9900C6B931 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF3C69E66BBC723AA24BDF4 /* Pods-BeaconDemo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BeaconDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		52D886D51A86AE9900C6B931 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D591A157B790A77A6145DF6C /* Pods-BeaconDemo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BeaconDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +519,7 @@
 				52D886D51A86AE9900C6B931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52D886D61A86AE9900C6B931 /* Build configuration list for PBXNativeTarget "BeaconDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +528,7 @@
 				52D886D81A86AE9900C6B931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

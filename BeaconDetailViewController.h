@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ESTBeaconManager.h"
 
 @interface BeaconDetailViewController : UIViewController
+
+@property (nonatomic, strong)   ESTBeacon           *beacon;
+@property (nonatomic, strong)   ESTBeaconManager    *beaconManager;
+@property (nonatomic, strong)   ESTBeaconRegion     *beaconRegion;
 
 @end

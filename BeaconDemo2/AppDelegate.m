@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <ESTBeaconManager.h>
+#import <ESTConfig.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSLog(@"ESTAppDelegate: APP ID and APP TOKEN are required to connect to your beacons and make Estimote API calls.");
+    [ESTConfig setupAppID:@"johns-test-app" andAppToken:@"7d9e5f2705e78087ef8b1d91b1e638aa"];
+    
+    // Estimote Analytics allows you to log activity related to monitoring mechanism.
+    // At the current stage it is possible to log all enter/exit events when monitoring
+    // Particular beacons (Proximity UUID, Major, Minor values needs to be provided).
+    
+    NSLog(@"ESTAppDelegate: Analytics are turned OFF by defaults. You can enable them changing flag");
+    [ESTConfig enableAnalytics:NO];
+    
+    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]){
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    }
+    
     return YES;
 }
 

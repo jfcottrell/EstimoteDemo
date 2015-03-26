@@ -7,6 +7,13 @@
 //
 
 #import "BeaconManager.h"
+#import "ESTBeaconManager.h"
+
+@interface BeaconManager() <ESTBeaconManagerDelegate>
+
+
+@end
+
 
 @implementation BeaconManager
 
